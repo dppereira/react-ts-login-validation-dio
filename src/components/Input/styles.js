@@ -1,24 +1,25 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const InputContainer = styled.div`
+    width: 100%;
+    max-width: 275px;
+    height: 30px;
+    border-bottom: 1px solid #3B3450;
 
-    border: 1px solid #FAFAFA;
-    border-radius: 20px;
+    display:flex;
+    align-items: center;
+    margin-bottom: 20px;
+`
 
-    height: 62px;
-    width: 80%;
+export const IconContainer = styled.div`
+    margin-right: 10px;
+`
 
-    margin: 20px;
+export const InputText = styled.input`
+    background-color: transparent;
+    color: #FFFFFF;
+    flex:1;
+    border: 0;
+    height: 30px;
     
-    input {
-        background: transparent;
-        border: 0;
-        border-radius:20px;
-        width: 63.71rem;
-        height: 62px;
-        padding: 0 20px;
-        color: #FFFFFF;
-        font-size: 20px
-    }
-
 `

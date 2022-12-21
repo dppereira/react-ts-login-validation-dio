@@ -1,5 +1,8 @@
 import axios from 'axios';
 
-export const api = axios.create({
-    baseURL: 'https://api.github.com'
-})
+const api = axios.create({
+    // Base do json-server utilizando a porta 8001
+    baseURL: 'http://localhost:8001'
+});
+
+export { api }
